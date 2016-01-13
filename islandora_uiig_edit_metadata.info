@@ -1,0 +1,7 @@
+name = "Islandora UI Feature: Edit Metadata"
+description = "Creates a shortcut for content managers to edit metadata."
+dependencies[] = islandora
+dependencies[] = xml_form_builder
+package = Islandora Tools
+version = 7.x-dev
+core = 7.x
