@@ -57,7 +57,7 @@ function islandora_uiig_edit_metadata_edit_datastream_access($object, $dsid, $cm
   if (!isset($object[$dsid])) {
     return FALSE;
   }
-  elseif (!empty(array_intersect($object->models, $cmodels))) {
+  elseif (count(array_intersect($object->models, $cmodels)) > 0) {
     return islandora_datastream_access(ISLANDORA_METADATA_EDIT, $object[$dsid]);
   }
 }
