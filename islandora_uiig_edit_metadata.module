@@ -46,7 +46,6 @@ function islandora_uiig_edit_metadata_edit_datastream($object, $dsid) {
     // No edit implementations.
     drupal_set_message(t('This datastream does not exist.'));
     drupal_goto("islandora/object/{$object->id}/manage/datastreams");
-    break;
   }
 }
 
