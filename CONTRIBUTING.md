@@ -11,7 +11,7 @@ By participating in this project, you agree to abide by the Islandora [code of c
 ## Workflow and merging 
 
 The maintainers of islandora_uiig_edit_metadata may:
-* merge their own (or a co-worker's) pull requests
+* merge anyone's pull requests (including their own, but see note below)
 * merge without review
 * merge without waiting a courtesy period
 
